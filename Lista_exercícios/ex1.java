@@ -15,3 +15,4 @@ public class ex1 {
 
 
 // para compilar: javac ex1.java
+// para executar: java ex1
