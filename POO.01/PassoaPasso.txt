@@ -1,0 +1,18 @@
+Obervações: 
+- Antes de escrever código, defina o que a entidade precisa ter
+- def __init__ = Construtor
+- O que tem dentro dos parênteses = Parâmetros
+- O "self.exemplo" é o atributo que vai ser trabalhado dentro da classe e o "exemplo" é o dado que vem de fora
+
+- Getters (get): Servem estritamente para LER/RETORNAR um valor (ex.: get_nome() retorna o nome).
+- Setters (set): Servem para ALTERAR/DEFINIR/GRAVAR um valor com segurança (ex.: set_idade(25) altera a idade, mas verifica antes se a idade não é um número negativo).
+- Os comportamentos gerais da classe (como calcular_area(), desativar_conta(), efetuar_pagamento()) não são chamados de Métodos de Comportamento.
+
+PASSO A PASSO:
+    1. Criar a classe;
+    2. Criar o construtor (def __init__)
+    3.
+    4.
+    5.
+    6.
+    7.
