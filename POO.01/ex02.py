@@ -18,3 +18,7 @@ class Viagem:
         return self.distancia / tempo_total
 
 # Programa de teste:
+
+viagem1 = Viagem(30, 0, 40)
+
+print(f"A sua viagem de {viagem1.horas} horas e {viagem1.minutos} minutos teve a velocidade média de {viagem1.calcular_velocidade_media()} km/h")

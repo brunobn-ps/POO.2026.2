@@ -17,13 +17,13 @@ class Treino:
     def set_id(self, id: int):
         self.__id = id
     def set_data(self, dt: datetime):
-        self.__data = 
+        self.__data = dt
     def set_distancia(self, ds: float):
         self.__distancia = ds
     def set_tempo(self, t: timedelta):
         self.__tempo = t
 
-    def pace() -> timedelta:
+    def pace(self) -> timedelta:
         if self.__distancia <= 0:
             return timedelta(seconds = 0)
         segundos_totais = self.__tempo.total_seconds()
